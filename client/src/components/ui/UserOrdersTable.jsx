@@ -67,7 +67,7 @@ function UserOrdersTable({ orders }) {
                   {order.user}
                 </td>
                 <td className="border border-orange-500 px-4 py-2 sm:px-2 sm:py-1">
-                  ${order.totalPrice}
+                ₹{order.totalPrice}
                 </td>
                 <td className="border border-orange-500 px-4 py-2 sm:px-2 sm:py-1">
                   {getStatusIcon(order.status)}
